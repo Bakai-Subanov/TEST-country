@@ -1,0 +1,17 @@
+.count-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30px);
+    gap: 10px;
+}
+
+.circle {
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+}
+
